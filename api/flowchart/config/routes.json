@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/flowcharts",
+      "handler": "Flowchart.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/flowcharts/count",
+      "handler": "Flowchart.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/flowcharts/:id",
+      "handler": "Flowchart.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/flowcharts",
+      "handler": "Flowchart.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/flowcharts/:id",
+      "handler": "Flowchart.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/flowcharts/:id",
+      "handler": "Flowchart.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

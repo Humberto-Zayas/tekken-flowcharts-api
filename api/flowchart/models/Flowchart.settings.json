@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "flowcharts",
+  "info": {
+    "name": "flowchart",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "required": true,
+      "type": "richtext"
+    },
+    "Embed": {
+      "type": "text"
+    }
+  }
+}
